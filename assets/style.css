@@ -1,0 +1,31 @@
+body {
+    background-color: #f4f4f9;
+    /* Cor de fundo */
+    display: flex;
+    /* Usa flexbox */
+    flex-direction: column;
+    /* Alinha em coluna */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    justify-content: center;
+    /* Centraliza verticalmente, se necessário */
+    min-height: 100vh;
+    /* Garante que ocupe pelo menos a altura total da tela */
+    margin: 0;
+    /* Remove margens padrão */
+}
+
+#dropdown-produtos {
+    margin-top: 20px;
+    /* Espaçamento acima do dropdown */
+    padding: 5px;
+    /* Ajusta o espaço interno */
+    font-size: 14px;
+    /* Tamanho da fonte */
+    border: 1px solid #ccc;
+    /* Cor da borda */
+    border-radius: 4px;
+    /* Cantos arredondados */
+    width: 200px;
+    /* Largura do dropdown */
+}
